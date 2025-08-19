@@ -1,0 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PokemonGender = exports.PokemonType = void 0;
+var PokemonType;
+(function (PokemonType) {
+    PokemonType["Fuego"] = "Fuego";
+    PokemonType["Hielo"] = "Hielo";
+    PokemonType["Hierva"] = "Hierva";
+    PokemonType["Fantasma"] = "Fantasma";
+    PokemonType["Volador"] = "Volador";
+    PokemonType["Psiquico"] = "Psiquico";
+    PokemonType["Normal"] = "Normal";
+    PokemonType["Bicho"] = "Bicho";
+    PokemonType["Oscuro"] = "Oscuro";
+    PokemonType["Veneno"] = "Veneno";
+    PokemonType["Roca"] = "Roca";
+})(PokemonType || (exports.PokemonType = PokemonType = {}));
+var PokemonGender;
+(function (PokemonGender) {
+    PokemonGender["Male"] = "Male";
+    PokemonGender["Female"] = "Female";
+})(PokemonGender || (exports.PokemonGender = PokemonGender = {}));
