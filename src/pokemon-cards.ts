@@ -1,4 +1,4 @@
-import { PokemonCard } from "@jdejesus11/types";
+/* import { PokemonCard } from "@jdejesus11/types";
 
 export  const cards: PokemonCard[] = [
     {
@@ -6,4 +6,4 @@ export  const cards: PokemonCard[] = [
         ability: "Escamas Tórridas",
         power: 120
     }
-]
+]*/

@@ -1,0 +1,10 @@
+.button {
+    height: 40px;
+    padding: 0.75rem;
+    border: none;
+    min-width: 2rem;
+}
+.button:hover{
+    background-color: red;
+    transition: .3s;
+}

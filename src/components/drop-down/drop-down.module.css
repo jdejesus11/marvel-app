@@ -1,0 +1,11 @@
+.drop-down {
+    min-width: 200px;
+    height: 48px;
+    border: 1px black solid;
+    padding: 16px;
+}
+
+.drop-down:focus {
+    outline: none;
+}
+
