@@ -2,7 +2,7 @@
 
 ### Descripción:
 
-Web application to allow to search and show Marvel's character
+Web application (SPA) to find Marvel's characters.
 
 ### Technologies and tools
 
