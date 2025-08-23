@@ -5,6 +5,14 @@
     padding: 16px;
 }
 
+.drop-down--invisible {
+    display: none;
+}
+
+.drop-down--visible {
+    display: block;
+}
+
 .drop-down:focus {
     outline: none;
 }
