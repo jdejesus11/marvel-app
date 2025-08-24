@@ -1,5 +1,10 @@
-.drop-down {
+.drop-down-container {
     min-width: 200px;
+    max-width: 400px;
+}
+
+.drop-down {
+    width: 100%;
     height: 48px;
     border: 1px black solid;
     padding: 16px;
@@ -17,3 +22,17 @@
     outline: none;
 }
 
+.drop-down__options {
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+.drop-down__option {
+    padding: 8px 4px;
+}
+
+.drop-down__option:hover{
+    transition: .3s;
+    background-color: var(--primary-red-color-100);
+    color: var(--primary-white-color-100)
+}

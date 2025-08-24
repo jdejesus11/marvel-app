@@ -3,6 +3,10 @@
    margin: 0;
    font-size: 16px;
    box-sizing: content-box;
+
+   --primary-red-color-100: #e62429;
+   --primary-black-color-100: #202020;
+   --primary-white-color-100: #fff;
 }
 
 * {
