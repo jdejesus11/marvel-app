@@ -1,6 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./drop-down.module.css";
-import { filterByOptionsCondition, isStringEmpty, isValueContained } from "../../shared/utils";
+import {
+  filterByOptionsCondition,
+  isStringEmpty,
+  isValueContained,
+} from "../../shared/utils";
 import { v4 as uuidv4 } from "uuid";
 
 export type DropDownListProps = {
@@ -26,7 +30,6 @@ export const DropDownList: React.FC<DropDownListProps> = ({
     return () => input?.removeEventListener("focus", onFocusListener);
   }, []);
 
-
   const inputOnChange = (
     event: React.ChangeEvent<HTMLInputElement> | undefined,
   ) => {
@@ -40,7 +43,9 @@ export const DropDownList: React.FC<DropDownListProps> = ({
 
   const optionsEntries = Object.entries(options);
 
-  const optionsItems = isStringEmpty(value) ? optionsEntries : isValueContained(optionsEntries, filterByOptionsCondition(value))
+  const optionsItems = isStringEmpty(value)
+    ? optionsEntries
+    : isValueContained(optionsEntries, filterByOptionsCondition(value));
 
   return (
     <div ref={domRef} className={styles["drop-down-container"]}>
@@ -49,24 +54,36 @@ export const DropDownList: React.FC<DropDownListProps> = ({
         placeholder={placeholder}
         onChange={inputOnChange}
         value={value}
-        className={styles["drop-down"]}
+        className={styles["drop-down"] + " " + styles["drop-down--text"]}
         type="text"
       />
-      {isVisible && optionsItems.length && (
+      {isVisible && optionsItems.length > 0 && (
         <ul role="listbox" className={styles["drop-down__options"]}>
           {optionsItems.map(([key, value]) => (
             <li
+              tabIndex={0}
               onClick={() => {
                 inputSelect(key);
               }}
               id={uuidv4()}
               className={styles["drop-down__option"]}
             >
-              {value}
+              <span className={styles["drop-down--text"]}>{value}</span>
             </li>
           ))}
         </ul>
       )}
+
+       {isVisible && optionsItems.length <= 0 && 
+       (<ul  className={styles["drop-down__options--no-match"]}>
+         <li
+              id={uuidv4()}
+              className={styles["drop-down__option--no-match"]}
+            >
+              <span className={styles["drop-down--text"]}>No se encontrarón coincidencias</span>
+            </li>
+       </ul>)
+       }
     </div>
   );
 };

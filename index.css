@@ -6,7 +6,11 @@
 
    --primary-red-color-100: #e62429;
    --primary-black-color-100: #202020;
+   --secondary-black-color-200: #151515;
    --primary-white-color-100: #fff;
+
+   font-family: "Poppins", Geneva, Tahoma, sans-serif;
+   color: var(--primary-black-color-100);
 }
 
 * {
@@ -17,3 +21,34 @@ p, ul, li {
    padding: 0;
    margin: 0;
 }
+
+
+    /*--color-white: #fff;
+    --color-black: #000;
+    --color-red-1: #e62429;
+    --color-red-2: #d83138;
+    --color-red-3: #9f0013;
+    --color-red-4: #ca2020;
+    --color-gold-1: #c6a972;
+    --color-gold-2: #ae8b50;
+    --color-gold-3: #e8b63e;
+    --color-gray-1: #f2f2f2;
+    --color-gray-2: #e1e1e1;
+    --color-gray-3: #bbb;
+    --color-gray-4: #999;
+    --color-gray-5: #b0b4c4;
+    --color-gray-6: #dcdee5;
+    --color-gray-7: #eeeff2;
+    --color-gray-8: #caccd8;
+    --color-dark-1: #202020;
+    --color-dark-2: #151515;
+    --color-dark-3: #393939;
+    --color-dark-4: #767676;
+    --color-dark-5: #131619;
+    --color-blue-1: #1e2029;
+    --color-blue-2: #13141a;
+    --color-blue-3: #4c5067;
+    --color-blue-4: #989caf;
+    --color-blue-5: #313441;
+    --color-blue-6: #6e7491;
+    --color-green-1: #41ba42;*/
