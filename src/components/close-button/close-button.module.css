@@ -1,0 +1,10 @@
+.close-button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.close-button__image {
+  width: 24px;
+  height: 24px;
+}

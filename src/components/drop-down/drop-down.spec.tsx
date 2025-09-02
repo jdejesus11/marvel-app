@@ -4,8 +4,9 @@ import { DropDownList, DropDownListProps } from "./drop-down";
 import { test, describe, expect } from "vitest";
 import React from "react";
 
+const noFoundMessage = "No se encontrarón coincidencias";
+
 describe("Drop Down List", function () {
-  const noFoundMessage = "No se encontrarón coincidencias"
   const user = userEvent.setup();
   const props: DropDownListProps = {
     options: {
@@ -40,14 +41,13 @@ describe("Drop Down List", function () {
     });
   });
 
-  describe("when users type in non-existing options", function(){
-      test("then should render a messages that says 'No se encontraron coincidencias'", async function(){
-        render(<DropDownList {...props} />);
-        const input = screen.getByPlaceholderText(props.placeholder ?? "");
-        await user.type(input, "lorep ipsum");
-        const banner = screen.queryByText(noFoundMessage);
-        expect(banner).not.toBeNull();
-      })
-  })
-
+  describe("when users type in non-existing options", function () {
+    test("then should render a messages that says 'No se encontraron coincidencias'", async function () {
+      render(<DropDownList {...props} />);
+      const input = screen.getByPlaceholderText(props.placeholder ?? "");
+      await user.type(input, "lorep ipsum");
+      const banner = screen.queryByText(noFoundMessage);
+      expect(banner).not.toBeNull();
+    });
+  });
 });

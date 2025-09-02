@@ -65,6 +65,9 @@ export const DropDownList: React.FC<DropDownListProps> = ({
               onClick={() => {
                 inputSelect(key);
               }}
+              onFocus={() => {
+                debugger;
+              }}
               id={uuidv4()}
               className={styles["drop-down__option"]}
             >
@@ -74,16 +77,15 @@ export const DropDownList: React.FC<DropDownListProps> = ({
         </ul>
       )}
 
-       {isVisible && optionsItems.length <= 0 && 
-       (<ul  className={styles["drop-down__options--no-match"]}>
-         <li
-              id={uuidv4()}
-              className={styles["drop-down__option--no-match"]}
-            >
-              <span className={styles["drop-down--text"]}>No se encontrarón coincidencias</span>
-            </li>
-       </ul>)
-       }
+      {isVisible && optionsItems.length <= 0 && (
+        <ul className={styles["drop-down__options--no-match"]}>
+          <li id={uuidv4()} className={styles["drop-down__option--no-match"]}>
+            <span className={styles["drop-down--text"]}>
+              No se encontrarón coincidencias
+            </span>
+          </li>
+        </ul>
+      )}
     </div>
   );
 };

@@ -24,8 +24,7 @@
 }
 
 .drop-down__options,
-.drop-down__options--no-match
-{
+.drop-down__options--no-match {
   list-style-type: none;
   position: absolute;
   width: 100%;
@@ -39,9 +38,8 @@
   cursor: pointer;
 }
 
-.drop-down__option, 
-.drop-down__option--no-match
-{
+.drop-down__option,
+.drop-down__option--no-match {
   padding: 8px 16px;
 }
 
