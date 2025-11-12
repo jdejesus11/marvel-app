@@ -5,7 +5,7 @@ import styles from "./close-button.module.css";
 
 export interface CloseButtonProps {
   onClick?: () => void;
-  imageProps: Partial<HTMLImageElement>;
+  imageProps?: Partial<HTMLImageElement>;
 }
 
 export const CloseButton: React.FC<CloseButtonProps> = ({

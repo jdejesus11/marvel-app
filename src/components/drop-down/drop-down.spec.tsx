@@ -1,4 +1,4 @@
-import { queryByPlaceholderText, render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { DropDownList, DropDownListProps } from "./drop-down";
 import { test, describe, expect } from "vitest";

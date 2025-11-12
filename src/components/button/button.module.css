@@ -3,8 +3,12 @@
   padding: 0.75rem;
   border: none;
   min-width: 2rem;
+  cursor: pointer;
+  background-color: var(--primary-red-color-100);
+  color: var(--primary-white-color-100);
 }
+
 .button:hover {
-  background-color: red;
   transition: 0.3s;
+  background-color: var(--primary-red-color-200);
 }

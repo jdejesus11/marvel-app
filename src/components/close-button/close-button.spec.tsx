@@ -9,19 +9,18 @@ const doRender = (props: CloseButtonProps) => {
 };
 
 describe("Close button", function () {
+  const props = { imageProps: { alt: "Lorep Ipsum" } };
   const user = userEvent.setup();
 
   test("should render it", function () {
-    doRender({ imageProps: { alt: "Lorep Ipsum" } });
-    const button = screen.getByRole("button");
-    expect(button).not.toBeNull();
+    doRender(props);
   });
 
-  test.skip("should trigger onclick event when users click on the button", async function () {
+  test("should trigger onclick event when users click on the button", async function () {
     const onClickMock = vi.fn();
-    doRender({ imageProps: { alt: "Lorep Ipsum" } });
+    doRender({...props, onClick: onClickMock});
     const button = screen.getByRole("button");
     await user.click(button);
-    expect(onClickMock).toBeCalled();
+    expect(onClickMock).toHaveBeenCalled();
   });
 });
