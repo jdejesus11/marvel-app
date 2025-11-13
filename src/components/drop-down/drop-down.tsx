@@ -65,9 +65,7 @@ export const DropDownList: React.FC<DropDownListProps> = ({
               onClick={() => {
                 inputSelect(key);
               }}
-              onFocus={() => {
-                debugger;
-              }}
+              onFocus={() => {}}
               id={uuidv4()}
               className={styles["drop-down__option"]}
             >

@@ -18,7 +18,7 @@ describe("Close button", function () {
 
   test("should trigger onclick event when users click on the button", async function () {
     const onClickMock = vi.fn();
-    doRender({...props, onClick: onClickMock});
+    doRender({ ...props, onClick: onClickMock });
     const button = screen.getByRole("button");
     await user.click(button);
     expect(onClickMock).toHaveBeenCalled();

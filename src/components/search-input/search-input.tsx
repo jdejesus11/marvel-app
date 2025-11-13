@@ -1,15 +1,25 @@
 import React from "react";
 import styles from "./search-input.module.css";
+import glassIcon from "../../assets/images/glass.svg";
 
 export interface SearchInputProps {
-  onChange:(text: string) => void,
-  placehoder?: string
+  onChange: (text: string) => void;
+  placehoder?: string;
 }
 
-export const SearchInput: React.FC<SearchInputProps> = ({onChange, placehoder = ""}) => {
+export const SearchInput: React.FC<SearchInputProps> = ({
+  onChange,
+  placehoder = "",
+}) => {
   return (
     <div className={styles["search-input__container"]}>
-      <input placeholder={placehoder} onChange={(e) => onChange(e.target.value)}  className={styles["search-input"]} type="text" />
+      <input
+        placeholder={placehoder}
+        onChange={(e) => onChange(e.target.value)}
+        className={styles["search-input"]}
+        type="text"
+      />
+      <img className={styles["search-input__glass"]} src={glassIcon} />
     </div>
   );
 };

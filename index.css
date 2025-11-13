@@ -5,12 +5,15 @@
    box-sizing: content-box;
 
    --primary-red-color-100: #e62429;
+   --primary-red-color-200: #9f0013;
    --primary-black-color-100: #202020;
    --secondary-black-color-200: #151515;
    --primary-white-color-100: #fff;
+   --primary-gray-color-100: #e1e1e1;
+   --primary-gray-color-200: #6e7491;
 
    font-family: "Poppins", Geneva, Tahoma, sans-serif;
-   color: var(--primary-black-color-100);
+   color: var(--primary-black-color-200);
 }
 
 * {
@@ -20,6 +23,10 @@
 p, ul, li {
    padding: 0;
    margin: 0;
+}
+
+input {
+     color: var(--primary-black-color-200);
 }
 
 

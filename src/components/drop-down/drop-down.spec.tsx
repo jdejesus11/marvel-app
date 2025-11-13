@@ -1,7 +1,8 @@
 import { render, screen } from "@testing-library/react";
+import { test, describe, expect } from "vitest";
 import userEvent from "@testing-library/user-event";
 import { DropDownList, DropDownListProps } from "./drop-down";
-import { test, describe, expect } from "vitest";
+
 import React from "react";
 
 const noFoundMessage = "No se encontrarón coincidencias";

@@ -29,6 +29,7 @@ node_modules/
 **/*.tsv
 **/*.tsv.gz
 **/*.xlsx
+*.env.*
  
  
 # Mac/OSX

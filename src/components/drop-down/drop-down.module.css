@@ -36,6 +36,7 @@
 
 .drop-down__option {
   cursor: pointer;
+  background-color: var(--primary-white-color-100);
 }
 
 .drop-down__option,
