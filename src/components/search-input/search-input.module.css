@@ -1,11 +1,14 @@
 .search-input__container {
+  max-width: 400px;
   height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .search-input {
+  width: 400px;
   height: 48px;
   padding: 16px;
   border: 1px solid var(--primary-black-color-100);
@@ -17,8 +20,8 @@
 }
 
 .search-input__glass {
-  position: relative;
+  position: absolute;
   width: 24px;
   height: 24px;
-  left: -36px;
+  right: 15px;
 }

@@ -29,6 +29,10 @@ input {
      color: var(--primary-black-color-200);
 }
 
+body {
+   margin: 0;
+}
+
 
     /*--color-white: #fff;
     --color-black: #000;
