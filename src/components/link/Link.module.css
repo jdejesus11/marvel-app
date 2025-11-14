@@ -1,5 +1,6 @@
 .link {
   font-size: 0.8rem;
+  color: var(--primary-gray-color-200);
 }
 
 .link:hover {

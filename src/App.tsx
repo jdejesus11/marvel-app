@@ -24,7 +24,14 @@ export const App = () => {
       <Card
         character={{
           name: "Sample",
-          comics: ["Lorep ipsum Lorep ipsum", "Lorep Ipsum", "Lorep Ipsum Lorep ipsum","Lorep Ipsum ","Lorep Ipsum","Lorep Ipsum"],
+          comics: [
+            "Lorep ipsum Lorep ipsum",
+            "Lorep Ipsum",
+            "Lorep Ipsum Lorep ipsum",
+            "Lorep Ipsum ",
+            "Lorep Ipsum",
+            "Lorep Ipsum",
+          ],
           description:
             "Soldado mejorado con el suero del súper soldado, símbolo de valentía y justicia.",
         }}

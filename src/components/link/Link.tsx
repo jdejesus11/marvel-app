@@ -7,7 +7,7 @@ interface LinkProps {
 
 export const Link: React.FC<LinkProps> = ({ text }) => {
   return (
-    <a className={styles["link"]} href="">
+    <a className={styles["link"]} href="#">
       {text}
     </a>
   );
