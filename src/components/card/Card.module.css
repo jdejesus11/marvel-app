@@ -13,6 +13,10 @@
   top: -24px;
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; /* Specify the desired number of lines */
+  overflow: hidden;
 }
 
 .card__description {
@@ -22,6 +26,10 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 6; /* Specify the desired number of lines */
   overflow: hidden;
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card__button {

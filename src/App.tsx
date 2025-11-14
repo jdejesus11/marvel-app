@@ -23,7 +23,7 @@ export const App = () => {
       />
       <Card
         character={{
-          name: "Sample",
+          name: "Captain America (Steve Rogers)",
           comics: [
             "Lorep ipsum Lorep ipsum",
             "Lorep Ipsum",

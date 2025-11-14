@@ -35,7 +35,7 @@ describe("Card", function () {
       onViewMoreEvent : vi.fn(() => {}),
       noDescriptionPlaceholder: "No Dispobible"
     }
-    doRender(props);
+    doRender(customProps);
     const name = screen.getByText(props.character.name)
     expect(name).toBeInTheDocument()
     const description = screen.queryByText(props.character.description ?? "")
