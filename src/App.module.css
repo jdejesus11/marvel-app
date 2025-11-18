@@ -1,20 +1,56 @@
 .body {
-    display:grid;
-    column-gap:16px;
-    max-width:1096px; 
-    margin: auto;
-    grid-template-columns: minmax(816px, 1fr) 1fr;
-    padding: 16px 0;
+  display: grid;
+  column-gap: 16px;
+  max-width: 1096px;
+  margin: auto;
+  grid-template-columns: minmax(816px, 1fr) 1fr;
+  padding: 16px 0;
 }
 
+.content {
+  display: grid;
+  grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr);
+  row-gap: 16px;
+  column-gap: 16px;
+}
 
-.content { 
-    display:grid; 
-    grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr);
-    row-gap:16px;
-    column-gap: 16px;
+.body__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .books {
-    background-color: red;
+  background-color: transparent;
+  padding: 16px;
+}
+
+.characters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.characters__icon {
+  width: 48px;
+  height: 48px;
+}
+
+.characters__body {
+  display: flex;
+  align-items: center;
+}
+
+
+.favourites__container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.favourites__books-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }

@@ -3,7 +3,7 @@ import { Card, CardProps } from "./Card";
 import { test, describe, vi, expect } from "vitest";
 import React from "react";
 import userEvent from "@testing-library/user-event";
-import '@testing-library/jest-dom/vitest';
+import "@testing-library/jest-dom/vitest";
 
 describe("Card", function () {
   const props: CardProps = {
@@ -12,7 +12,7 @@ describe("Card", function () {
       description: "Lorep Ipsum",
       comics: ["lorep ipsu,"],
     },
-    noDescriptionPlaceholder: "No Disponible"
+    noDescriptionPlaceholder: "No Disponible",
   };
   const doRender = (props: CardProps) => {
     render(<Card {...props} />);
@@ -26,21 +26,21 @@ describe("Card", function () {
     doRender(props);
     const viewMoreButton = screen.getByRole("button", { name: "VIEW MORE" });
     await userEvent.click(viewMoreButton);
-    expect(props.onViewMoreEvent).toHaveBeenCalled()
+    expect(props.onViewMoreEvent).toHaveBeenCalled();
   });
 
-  test("should view the detail of a character", function(){
+  test("should view the detail of a character", function () {
     const customProps: CardProps = {
       ...props,
-      onViewMoreEvent : vi.fn(() => {}),
-      noDescriptionPlaceholder: "No Dispobible"
-    }
+      onViewMoreEvent: vi.fn(() => {}),
+      noDescriptionPlaceholder: "No Dispobible",
+    };
     doRender(customProps);
-    const name = screen.getByText(props.character.name)
-    expect(name).toBeInTheDocument()
-    const description = screen.queryByText(props.character.description ?? "")
+    const name = screen.getByText(props.character.name);
+    expect(name).toBeInTheDocument();
+    const description = screen.queryByText(props.character.description ?? "");
     expect(description).toBeInTheDocument();
-    const comics = screen.getAllByRole("listitem")
-    expect(comics.length).toBe(props.character.comics?.length)
-  })
+    const comics = screen.getAllByRole("listitem");
+    expect(comics.length).toBe(props.character.comics?.length);
+  });
 });

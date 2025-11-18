@@ -3,21 +3,20 @@ import { Button } from "../button/button";
 import styles from "./Card.module.css";
 import { Link } from "../link/Link";
 import characterLogo from "../../assets/images/spiderman.jpg";
+import {Character} from "../../domain/Character"
 
-export interface Character {
-  name: string;
-  description?: string;
-  imageURL?: string;
-  comics?: string[];
-}
 
 export interface CardProps {
   character: Character;
   onViewMoreEvent?: () => void;
-  noDescriptionPlaceholder?: string
+  noDescriptionPlaceholder?: string;
 }
 
-export const Card: React.FC<CardProps> = ({ character, onViewMoreEvent, noDescriptionPlaceholder = "" }) => {
+export const Card: React.FC<CardProps> = ({
+  character,
+  onViewMoreEvent,
+  noDescriptionPlaceholder = "",
+}) => {
   return (
     <div className={styles["card"]}>
       <div className={styles["card__header"]}>

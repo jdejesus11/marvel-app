@@ -1,475 +1,172 @@
 {
   "results": [
-    {
-      "nombre": "Tony Stark",
-      "alias": "Iron Man",
-      "superpoderes": [
-        "Intelecto de genio",
-        "Armadura avanzada",
-        "Vuelo",
-        "Rayos repulsores"
-      ],
-      "biografia": "Millonario e inventor que creó la armadura de Iron Man para salvar su vida y luchar contra el mal."
-    },
-    {
-      "nombre": "Steve Rogers",
-      "alias": "Capitán América",
-      "superpoderes": [
-        "Fuerza sobrehumana",
-        "Agilidad",
-        "Reflejos mejorados",
-        "Uso del escudo indestructible"
-      ],
-      "biografia": "Soldado mejorado con el suero del súper soldado, símbolo de valentía y justicia."
-    },
-    {
-      "nombre": "Thor Odinson",
-      "alias": "Thor",
-      "superpoderes": [
-        "Control del trueno",
-        "Fuerza divina",
-        "Vuelo con Mjolnir",
-        "Inmortalidad"
-      ],
-      "biografia": "Dios del trueno de Asgard, miembro de los Vengadores y protector de los Nueve Reinos."
-    },
-    {
-      "nombre": "Bruce Banner",
-      "alias": "Hulk",
-      "superpoderes": [
-        "Fuerza ilimitada",
-        "Regeneración",
-        "Resistencia extrema",
-        "Invulnerabilidad"
-      ],
-      "biografia": "Científico que se transforma en Hulk al enojarse, producto de la exposición a radiación gamma."
-    },
-    {
-      "nombre": "Natasha Romanoff",
-      "alias": "Black Widow",
-      "superpoderes": [
-        "Agilidad",
-        "Maestría en combate cuerpo a cuerpo",
-        "Espionaje",
-        "Armas avanzadas"
-      ],
-      "biografia": "Ex agente rusa que se unió a S.H.I.E.L.D. y luego a los Vengadores."
-    },
-    {
-      "nombre": "Clint Barton",
-      "alias": "Hawkeye",
-      "superpoderes": [
-        "Tiro con arco preciso",
-        "Agilidad",
-        "Combate cuerpo a cuerpo",
-        "Estrategia táctica"
-      ],
-      "biografia": "Maestro arquero y miembro clave de los Vengadores, experto en puntería y estrategia."
-    },
-    {
-      "nombre": "Peter Parker",
-      "alias": "Spider-Man",
-      "superpoderes": [
-        "Sentido arácnido",
-        "Fuerza",
-        "Reflejos mejorados",
-        "Trepar paredes"
-      ],
-      "biografia": "Joven que obtuvo poderes tras ser picado por una araña radiactiva; lucha por el bien con responsabilidad."
-    },
-    {
-      "nombre": "T'Challa",
-      "alias": "Black Panther",
-      "superpoderes": [
-        "Fuerza sobrehumana",
-        "Agilidad",
-        "Reflejos felinos",
-        "Tecnología avanzada de Wakanda"
-      ],
-      "biografia": "Rey de Wakanda, portador del manto de la Pantera Negra y defensor de su pueblo."
-    },
-    {
-      "nombre": "Stephen Strange",
-      "alias": "Doctor Strange",
-      "superpoderes": [
-        "Magia",
-        "Manipulación del tiempo",
-        "Proyección astral",
-        "Hechicería avanzada"
-      ],
-      "biografia": "Ex cirujano que se convirtió en el Hechicero Supremo, protector del multiverso."
-    },
-    {
-      "nombre": "Wanda Maximoff",
-      "alias": "Scarlet Witch",
-      "superpoderes": [
-        "Magia del caos",
-        "Telequinesis",
-        "Alteración de la realidad",
-        "Telepatía"
-      ],
-      "biografia": "Mutante con poderes místicos capaces de alterar la realidad misma."
-    },
-    {
-      "nombre": "Vision",
-      "alias": "Vision",
-      "superpoderes": [
-        "Intangibilidad",
-        "Vuelo",
-        "Rayos de energía",
-        "Intelecto sintético"
-      ],
-      "biografia": "Ser sintético creado con la Gema de la Mente, combina inteligencia artificial con emociones humanas."
-    },
-    {
-      "nombre": "Scott Lang",
-      "alias": "Ant-Man",
-      "superpoderes": [
-        "Cambio de tamaño",
-        "Fuerza aumentada al reducirse",
-        "Comunicación con insectos"
-      ],
-      "biografia": "Ladrón reformado que usa el traje de Ant-Man para proteger a los suyos y luchar junto a los Vengadores."
-    },
-    {
-      "nombre": "Hope van Dyne",
-      "alias": "The Wasp",
-      "superpoderes": ["Cambio de tamaño", "Vuelo", "Rayos bioeléctricos"],
-      "biografia": "Hija de Hank Pym que hereda el legado de The Wasp y lucha junto a Ant-Man."
-    },
-    {
-      "nombre": "Carol Danvers",
-      "alias": "Captain Marvel",
-      "superpoderes": [
-        "Energía cósmica",
-        "Vuelo",
-        "Superfuerza",
-        "Proyección de energía"
-      ],
-      "biografia": "Ex piloto de la Fuerza Aérea que obtiene poderes cósmicos tras una explosión Kree."
-    },
-    {
-      "nombre": "Sam Wilson",
-      "alias": "Falcon",
-      "superpoderes": [
-        "Vuelo con alas mecánicas",
-        "Combate táctico",
-        "Liderazgo"
-      ],
-      "biografia": "Aliado de Capitán América que se convierte en el nuevo portador del escudo."
-    },
-    {
-      "nombre": "Bucky Barnes",
-      "alias": "Winter Soldier",
-      "superpoderes": [
-        "Fuerza aumentada",
-        "Brazo biónico",
-        "Agilidad",
-        "Entrenamiento militar"
-      ],
-      "biografia": "Ex compañero de Steve Rogers, convertido en asesino por Hydra y luego redimido."
-    },
-    {
-      "nombre": "Nick Fury",
-      "alias": "Nick Fury",
-      "superpoderes": [
-        "Estrategia",
-        "Combate táctico",
-        "Liderazgo",
-        "Espionaje"
-      ],
-      "biografia": "Director de S.H.I.E.L.D., responsable de reunir a los Vengadores."
-    },
-    {
-      "nombre": "Peter Quill",
-      "alias": "Star-Lord",
-      "superpoderes": [
-        "Combate espacial",
-        "Uso de armas de energía",
-        "Vuelo limitado",
-        "Tácticas de supervivencia"
-      ],
-      "biografia": "Líder de los Guardianes de la Galaxia, mitad humano y mitad celestial."
-    },
-    {
-      "nombre": "Gamora",
-      "alias": "Gamora",
-      "superpoderes": [
-        "Fuerza sobrehumana",
-        "Agilidad",
-        "Maestría en armas",
-        "Regeneración"
-      ],
-      "biografia": "La mujer más letal de la galaxia, criada por Thanos y redimida como heroína."
-    },
-    {
-      "nombre": "Drax",
-      "alias": "Drax el Destructor",
-      "superpoderes": [
-        "Fuerza extrema",
-        "Resistencia",
-        "Pelea cuerpo a cuerpo"
-      ],
-      "biografia": "Guerrero impulsado por la venganza contra Thanos, miembro de los Guardianes de la Galaxia."
-    },
-    {
-      "nombre": "Rocket Raccoon",
-      "alias": "Rocket",
-      "superpoderes": ["Ingeniería avanzada", "Estrategia", "Combate armado"],
-      "biografia": "Mapache genéticamente modificado, experto en armas y tecnología."
-    },
-    {
-      "nombre": "Groot",
-      "alias": "Groot",
-      "superpoderes": [
-        "Regeneración",
-        "Control vegetal",
-        "Fuerza",
-        "Inmortalidad parcial"
-      ],
-      "biografia": "Ser arbóreo capaz de regenerarse y comunicarse con su frase característica: 'Yo soy Groot'."
-    },
-    {
-      "nombre": "James Rhodes",
-      "alias": "War Machine",
-      "superpoderes": ["Armadura de combate", "Vuelo", "Armas pesadas"],
-      "biografia": "Amigo y aliado de Tony Stark, piloto militar que usa la armadura War Machine."
-    },
-    {
-      "nombre": "Matt Murdock",
-      "alias": "Daredevil",
-      "superpoderes": [
-        "Sentidos agudizados",
-        "Ecolocalización",
-        "Agilidad",
-        "Combate cuerpo a cuerpo"
-      ],
-      "biografia": "Abogado ciego que lucha contra el crimen como el vigilante Daredevil."
-    },
-    {
-      "nombre": "Jessica Jones",
-      "alias": "Jessica Jones",
-      "superpoderes": ["Fuerza sobrehumana", "Resistencia", "Vuelo limitado"],
-      "biografia": "Investigadora privada con poderes que enfrenta su oscuro pasado como heroína."
-    },
-    {
-      "nombre": "Luke Cage",
-      "alias": "Power Man",
-      "superpoderes": ["Piel invulnerable", "Fuerza sobrehumana"],
-      "biografia": "Hombre con piel impenetrable tras un experimento fallido; defensor de Harlem."
-    },
-    {
-      "nombre": "Danny Rand",
-      "alias": "Iron Fist",
-      "superpoderes": [
-        "Puño de hierro",
-        "Chi místico",
-        "Artes marciales avanzadas"
-      ],
-      "biografia": "Heredero de una fortuna que domina el poder del chi para combatir el mal."
-    },
-    {
-      "nombre": "Frank Castle",
-      "alias": "The Punisher",
-      "superpoderes": [
-        "Estrategia militar",
-        "Armas de fuego",
-        "Combate cuerpo a cuerpo"
-      ],
-      "biografia": "Exmarine que busca venganza tras la muerte de su familia, convertido en justiciero."
-    },
-    {
-      "nombre": "Charles Xavier",
-      "alias": "Profesor X",
-      "superpoderes": ["Telepatía", "Control mental", "Proyección astral"],
-      "biografia": "Fundador de los X-Men, defensor de la convivencia entre humanos y mutantes."
-    },
-    {
-      "nombre": "Erik Lehnsherr",
-      "alias": "Magneto",
-      "superpoderes": [
-        "Manipulación del magnetismo",
-        "Vuelo",
-        "Creación de campos magnéticos"
-      ],
-      "biografia": "Mutante poderoso que busca proteger a los suyos, aunque a veces con métodos extremos."
-    },
-    {
-      "nombre": "Logan",
-      "alias": "Wolverine",
-      "superpoderes": [
-        "Regeneración",
-        "Garras de adamantium",
-        "Sentidos animales",
-        "Longevidad"
-      ],
-      "biografia": "Mutante con habilidades de curación y garras retráctiles, miembro de los X-Men."
-    },
-    {
-      "nombre": "Jean Grey",
-      "alias": "Phoenix",
-      "superpoderes": ["Telepatía", "Telequinesis", "Fuerza cósmica del Fénix"],
-      "biografia": "Mutante extremadamente poderosa, anfitriona de la Fuerza Fénix."
-    },
-    {
-      "nombre": "Scott Summers",
-      "alias": "Cyclops",
-      "superpoderes": ["Rayos ópticos", "Liderazgo táctico"],
-      "biografia": "Líder de los X-Men, capaz de emitir poderosos rayos de energía desde sus ojos."
-    },
-    {
-      "nombre": "Ororo Munroe",
-      "alias": "Storm",
-      "superpoderes": ["Control del clima", "Vuelo", "Electroquinesis"],
-      "biografia": "Mutante capaz de controlar el clima, venerada como diosa en África."
-    },
-    {
-      "nombre": "Remy LeBeau",
-      "alias": "Gambit",
-      "superpoderes": ["Carga cinética", "Agilidad", "Combate con bastón"],
-      "biografia": "Mutante con la habilidad de cargar objetos con energía explosiva."
-    },
-    {
-      "nombre": "Kurt Wagner",
-      "alias": "Nightcrawler",
-      "superpoderes": [
-        "Teletransportación",
-        "Agilidad",
-        "Camuflaje en sombras"
-      ],
-      "biografia": "Mutante con apariencia demoníaca y corazón noble, miembro de los X-Men."
-    },
-    {
-      "nombre": "Rogue",
-      "alias": "Rogue",
-      "superpoderes": ["Absorción de poderes", "Fuerza", "Vuelo"],
-      "biografia": "Mutante capaz de absorber los poderes y recuerdos de otros con el contacto físico."
-    },
-    {
-      "nombre": "Pietro Maximoff",
-      "alias": "Quicksilver",
-      "superpoderes": ["Supervelocidad", "Reflejos acelerados"],
-      "biografia": "Hermano gemelo de Wanda Maximoff, con la habilidad de moverse a velocidades extremas."
-    },
-    {
-      "nombre": "Kitty Pryde",
-      "alias": "Shadowcat",
-      "superpoderes": [
-        "Intangibilidad",
-        "Hackeo tecnológico",
-        "Entrenamiento en combate"
-      ],
-      "biografia": "Mutante capaz de atravesar objetos sólidos, miembro leal de los X-Men."
-    },
-    {
-      "nombre": "Colossus",
-      "alias": "Colossus",
-      "superpoderes": [
-        "Transformación metálica",
-        "Fuerza extrema",
-        "Durabilidad"
-      ],
-      "biografia": "Mutante ruso capaz de convertir su cuerpo en acero orgánico."
-    },
-    {
-      "nombre": "Wade Wilson",
-      "alias": "Deadpool",
-      "superpoderes": [
-        "Regeneración acelerada",
-        "Agilidad",
-        "Maestría en combate"
-      ],
-      "biografia": "Mercenario con un sentido del humor peculiar y una capacidad de curación extraordinaria."
-    },
-    {
-      "nombre": "Elektra Natchios",
-      "alias": "Elektra",
-      "superpoderes": ["Artes marciales", "Sigilo", "Agilidad"],
-      "biografia": "Asesina experta en artes marciales y antiguo amor de Daredevil."
-    },
-    {
-      "nombre": "Jennifer Walters",
-      "alias": "She-Hulk",
-      "superpoderes": ["Fuerza sobrehumana", "Resistencia", "Regeneración"],
-      "biografia": "Abogada y prima de Bruce Banner, obtiene poderes similares tras una transfusión de sangre."
-    },
-    {
-      "nombre": "Marc Spector",
-      "alias": "Moon Knight",
-      "superpoderes": [
-        "Fuerza lunar",
-        "Reflejos",
-        "Agilidad",
-        "Múltiples personalidades"
-      ],
-      "biografia": "Vigilante que obtiene poderes del dios egipcio Khonshu."
-    },
-    {
-      "nombre": "Blade",
-      "alias": "Blade",
-      "superpoderes": [
-        "Fuerza",
-        "Regeneración",
-        "Inmunidad a mordidas de vampiro",
-        "Maestría con espadas"
-      ],
-      "biografia": "Cazador de vampiros mitad humano, mitad vampiro, que dedica su vida a eliminar criaturas nocturnas."
-    },
-    {
-      "nombre": "Carol Susan Jane Danvers",
-      "alias": "Binary",
-      "superpoderes": [
-        "Energía cósmica",
-        "Vuelo interestelar",
-        "Manipulación de energía"
-      ],
-      "biografia": "Forma cósmica avanzada de Captain Marvel, con poder casi ilimitado."
-    },
-    {
-      "nombre": "Bobby Drake",
-      "alias": "Iceman",
-      "superpoderes": [
-        "Manipulación del hielo",
-        "Criogénesis",
-        "Transformación corporal"
-      ],
-      "biografia": "Mutante capaz de controlar y generar hielo, miembro original de los X-Men."
-    },
-    {
-      "nombre": "Ben Grimm",
-      "alias": "The Thing",
-      "superpoderes": [
-        "Fuerza inmensa",
-        "Resistencia",
-        "Durabilidad de piedra"
-      ],
-      "biografia": "Miembro de los Cuatro Fantásticos, transformado en un ser rocoso tras una tormenta cósmica."
-    },
-    {
-      "nombre": "Reed Richards",
-      "alias": "Mr. Fantastic",
-      "superpoderes": [
-        "Elasticidad",
-        "Intelecto superior",
-        "Ingeniería avanzada"
-      ],
-      "biografia": "Líder de los Cuatro Fantásticos, genio científico con cuerpo elástico."
-    },
-    {
-      "nombre": "Sue Storm",
-      "alias": "Invisible Woman",
-      "superpoderes": [
-        "Invisibilidad",
-        "Campos de fuerza",
-        "Proyección de energía"
-      ],
-      "biografia": "Miembro de los Cuatro Fantásticos, puede volverse invisible y generar escudos protectores."
-    },
-    {
-      "nombre": "Johnny Storm",
-      "alias": "Human Torch",
-      "superpoderes": ["Piroquinesis", "Vuelo", "Control del fuego"],
-      "biografia": "Hermano de Sue Storm, capaz de encender su cuerpo en llamas y volar."
-    }
+  {
+    "name": "Spider-Man",
+    "description": "El amigable vecino Hombre Araña. Posee superfuerza, agilidad, la capacidad de adherirse a superficies y un 'sentido arácnido'. Es un genio científico.",
+    "comics": ["Amazing Fantasy #15", "The Amazing Spider-Man"]
+  },
+  {
+    "name": "Iron Man",
+    "description": "Tony Stark, genio, millonario, playboy, filántropo. Utiliza armaduras de alta tecnología alimentadas por un reactor Arc.",
+    "comics": ["Tales of Suspense #39", "Invincible Iron Man"]
+  },
+  {
+    "name": "Captain America",
+    "description": "Steve Rogers, un supersoldado de la Segunda Guerra Mundial con fuerza, resistencia y longevidad mejoradas. Lucha con un escudo indestructible de Vibranium.",
+    "comics": ["Captain America Comics #1", "Avengers"]
+  },
+  {
+    "name": "Thor",
+    "description": "El Dios Asgardiano del Trueno. Posee una fuerza, velocidad y resistencia sobrehumanas, y maneja el martillo encantado Mjolnir.",
+    "comics": ["Journey into Mystery #83", "Thor"]
+  },
+  {
+    "name": "Hulk",
+    "description": "Bruce Banner, un científico expuesto a rayos gamma que se transforma en un monstruo verde de fuerza y rabia ilimitadas.",
+    "comics": ["The Incredible Hulk #1", "The Defenders"]
+  },
+  {
+    "name": "Black Widow",
+    "description": "Natasha Romanoff, una maestra espía, asesina y luchadora entrenada por la KGB. No tiene superpoderes, pero es una experta en combate y tecnología.",
+    "comics": ["Tales of Suspense #52", "The Avengers"]
+  },
+  {
+    "name": "Wolverine",
+    "description": "Logan, un mutante con factor de curación regenerativo y seis garras retráctiles de Adamantium. Es famoso por su longevidad y su carácter irascible.",
+    "comics": ["The Incredible Hulk #180", "Uncanny X-Men"]
+  },
+  {
+    "name": "Doctor Strange",
+    "description": "Stephen Strange, un neurocirujano convertido en el Hechicero Supremo. Maestro de las artes místicas, protege la Tierra de amenazas mágicas y dimensionales.",
+    "comics": ["Strange Tales #110", "Doctor Strange"]
+  },
+  {
+    "name": "Black Panther",
+    "description": "T'Challa, el rey y protector de la nación africana de Wakanda. Es un experto en combate y utiliza un traje avanzado de Vibranium.",
+    "comics": ["Fantastic Four #52", "Black Panther"]
+  },
+  {
+    "name": "Captain Marvel",
+    "description": "Carol Danvers, una piloto de la Fuerza Aérea con poderes cósmicos, incluyendo superfuerza, vuelo y la capacidad de absorber y proyectar energía.",
+    "comics": ["Marvel Super-Heroes #13", "Captain Marvel"]
+  },
+  {
+    "name": "Deadpool",
+    "description": "Wade Wilson, un mercenario antihéroe con un factor de curación acelerado y la capacidad de romper la cuarta pared. Experto en armas y sarcasmo.",
+    "comics": ["New Mutants #98", "Deadpool"]
+  },
+  {
+    "name": "Cyclops",
+    "description": "Scott Summers, un mutante líder de campo de los X-Men que emite poderosos rayos ópticos de energía de conmoción.",
+    "comics": ["The X-Men #1", "Uncanny X-Men"]
+  },
+  {
+    "name": "Jean Grey",
+    "description": "Una mutante de nivel Omega con poderosas habilidades telepáticas y telequinéticas. A menudo está vinculada a la entidad cósmica conocida como la Fuerza Fénix.",
+    "comics": ["The X-Men #1", "Phoenix Saga"]
+  },
+  {
+    "name": "Storm",
+    "description": "Ororo Munroe, una mutante capaz de controlar y manipular el clima, incluyendo lluvia, viento, relámpagos y temperatura.",
+    "comics": ["Giant-Size X-Men #1", "Uncanny X-Men"]
+  },
+  {
+    "name": "Magneto",
+    "description": "Max Eisenhardt, un poderoso mutante con la capacidad de generar y controlar campos magnéticos, manipulando metales a voluntad.",
+    "comics": ["The X-Men #1", "Uncanny X-Men"]
+  },
+  {
+    "name": "Loki",
+    "description": "El Dios Asgardiano de las Mentiras y la Travesura. Es un maestro ilusionista, hechicero y un complejo antihéroe/villano, hermano adoptivo de Thor.",
+    "comics": ["Venus #6", "Journey into Mystery"]
+  },
+  {
+    "name": "Scarlet Witch",
+    "description": "Wanda Maximoff, una mutante/humana mejorada con la capacidad de manipular la realidad y la magia del caos.",
+    "comics": ["The X-Men #4", "Avengers"]
+  },
+  {
+    "name": "Vision",
+    "description": "Un androide sintético (sintozoide) con la capacidad de manipular su densidad molecular, permitiéndole volar, ser intangible o increíblemente pesado y fuerte.",
+    "comics": ["The Avengers #57", "Vision"]
+  },
+  {
+    "name": "Ant-Man",
+    "description": "Scott Lang, un ladrón reformado que utiliza un traje que le permite encogerse al tamaño de un insecto o crecer hasta ser un gigante, manteniendo su fuerza.",
+    "comics": ["Tales to Astonish #35 (como Hank Pym)", "Avengers"]
+  },
+  {
+    "name": "Wasp",
+    "description": "Janet van Dyne, una superheroína que puede encogerse y crecer a voluntad y volar con alas bio-sintéticas. Cofundadora de Los Vengadores.",
+    "comics": ["Tales to Astonish #44", "The Avengers"]
+  },
+  {
+    "name": "Hawkeye",
+    "description": "Clint Barton, un arquero experto sin superpoderes, pero con una puntería inigualable y una gran variedad de flechas trucadas.",
+    "comics": ["Tales of Suspense #57", "The Avengers"]
+  },
+  {
+    "name": "Rocket Raccoon",
+    "description": "Un mapache genéticamente modificado, experto en armas pesadas, táctica y pilotaje espacial. Miembro de los Guardianes de la Galaxia.",
+    "comics": ["Marvel Preview #7", "Guardians of the Galaxy"]
+  },
+  {
+    "name": "Groot",
+    "description": "Un ser arbóreo sensible, miembro de los Guardianes de la Galaxia, que solo puede decir 'Yo soy Groot'. Posee superfuerza, regeneración y control de la flora.",
+    "comics": ["Tales to Astonish #13", "Guardians of the Galaxy"]
+  },
+  {
+    "name": "Drax the Destroyer",
+    "description": "Arthur Douglas, resucitado con la única misión de matar a Thanos. Posee superfuerza, resistencia y maestría en el combate cuerpo a cuerpo.",
+    "comics": ["Iron Man #55", "Guardians of the Galaxy"]
+  },
+  {
+    "name": "Gamora",
+    "description": "La 'mujer más peligrosa de la galaxia', hija adoptiva de Thanos. Experta en artes marciales y armas, con fuerza y velocidad mejoradas.",
+    "comics": ["Strange Tales #180", "Guardians of the Galaxy"]
+  },
+  {
+    "name": "Star-Lord",
+    "description": "Peter Quill, un híbrido humano/celestial y líder de los Guardianes de la Galaxia. Piloto experto y maestro estratega, utiliza armas de fuego alienígenas.",
+    "comics": ["Marvel Preview #4", "Guardians of the Galaxy"]
+  },
+  {
+    "name": "Thanos",
+    "description": "Un señor de la guerra Eterno de Titán, obsesionado con la Muerte. Es uno de los villanos más poderosos del Universo Marvel, a menudo buscando las Gemas del Infinito.",
+    "comics": ["Iron Man #55", "The Infinity Gauntlet"]
+  },
+  {
+    "name": "Silver Surfer",
+    "description": "Norrin Radd, heraldo de Galactus. Viaja por el espacio en una tabla de surf cósmica, con la que puede manipular energía cósmica.",
+    "comics": ["The Fantastic Four #48", "Silver Surfer"]
+  },
+  {
+    "name": "She-Hulk",
+    "description": "Jennifer Walters, prima de Bruce Banner. Tras una transfusión de sangre, obtiene una versión controlada de los poderes de Hulk, manteniendo su inteligencia.",
+    "comics": ["Savage She-Hulk #1", "She-Hulk"]
+  },
+  {
+    "name": "Daredevil",
+    "description": "Matt Murdock, un abogado ciego con sentidos sobrehumanos (aparte de la vista), que lucha contra el crimen en Hell's Kitchen.",
+    "comics": ["Daredevil #1", "Daredevil"]
+  },
+  {
+    "name": "Punisher",
+    "description": "Frank Castle, un vigilante que usa métodos letales para castigar a los criminales. Es un experto en tácticas militares y armas.",
+    "comics": ["The Amazing Spider-Man #129", "The Punisher"]
+  },
+  {
+    "name": "Elektra",
+    "description": "Una asesina ninja altamente entrenada. Maestra en el manejo de los *sai* y experta en artes marciales.",
+    "comics": ["Daredevil #168", "Elektra"]
+  },
+  {
+    "name": "Nick Fury",
+    "description": "Un agente de espionaje que se convierte en el director de S.H.I.E.L.D. Un maestro estratega y espía, aunque a menudo utiliza alta tecnología.",
+    "comics": ["Sgt. Fury and his Howling Commandos #1", "Nick Fury, Agent of S.H.I.E.L.D."]
+  },
+  {
+    "name": "Ghost Rider",
+    "description": "Un espíritu de la venganza con fuerza sobrehumana, control sobre el fuego infernal y su famosa 'mirada de penitencia'. El huésped más conocido es Johnny Blaze"}
   ]
 }

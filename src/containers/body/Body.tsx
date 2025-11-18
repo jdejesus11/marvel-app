@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Body:React.FC = () => {
-    return <>Body</>
-}
+export const Body: React.FC = () => {
+  return <>Body</>;
+};

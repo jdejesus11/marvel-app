@@ -1,11 +1,11 @@
 .header-container {
-    padding: 8px;
-    background-color: var(--secondary-black-color-200);
-    display: flex;
-    gap: 8px;
+  padding: 8px;
+  background-color: var(--secondary-black-color-200);
+  display: flex;
+  gap: 8px;
 }
 
 .header-logo {
-    width: 120px;
-    height: 48px;
+  width: 120px;
+  height: 48px;
 }

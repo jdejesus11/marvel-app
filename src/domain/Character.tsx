@@ -1,6 +1,6 @@
 export interface Character {
-  nombre: string;
-  alias: string;
-  superpoderes: string;
-  biografia: string;
+  name: string;
+  description?: string;
+  imageURL?: string;
+  comics?: string[];
 }
