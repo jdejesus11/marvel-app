@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { test, describe, expect } from "vitest";
+import { test, describe, expect, vi } from "vitest";
 import userEvent from "@testing-library/user-event";
 import { DropDownList, DropDownListProps } from "./drop-down";
 
@@ -16,6 +16,7 @@ describe("Drop Down List", function () {
     },
     name: "sorting",
     placeholder: "Ordenar por",
+    onChange: vi.fn(() => {}),
   };
 
   test("should render it", function () {

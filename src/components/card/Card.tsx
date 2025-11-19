@@ -3,8 +3,7 @@ import { Button } from "../button/button";
 import styles from "./Card.module.css";
 import { Link } from "../link/Link";
 import characterLogo from "../../assets/images/spiderman.jpg";
-import {Character} from "../../domain/Character"
-
+import { Character } from "../../domain/Domain";
 
 export interface CardProps {
   character: Character;

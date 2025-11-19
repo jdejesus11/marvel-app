@@ -9,15 +9,15 @@ import { v4 as uuidv4 } from "uuid";
 
 export type DropDownListProps = {
   options: Record<string, string>;
-  currentValue?: string,
-  onChange: (value: string) => void
+  currentValue?: string;
+  onChange: (value: string) => void;
 } & Partial<HTMLInputElement>;
 
 export const DropDownList: React.FC<DropDownListProps> = ({
   name,
   options,
   placeholder,
-  onChange
+  onChange,
 }) => {
   const [value, setValue] = useState<string>("");
   const [isVisible, setIsVisible] = useState<boolean>(false);
@@ -36,19 +36,18 @@ export const DropDownList: React.FC<DropDownListProps> = ({
   const inputOnChange = (
     event: React.ChangeEvent<HTMLInputElement> | undefined,
   ) => {
-    debugger
     setValue(event?.target.value ?? "");
 
-    if (event?.target.value && options[event.target.value]){
-        onChange(event.target.value)
+    if (event?.target.value && options[event.target.value]) {
+      onChange(event.target.value);
     }
   };
 
   const inputSelect = (value: string) => {
     setValue(options[value]);
     setIsVisible(false);
-    if (options[value]){
-        onChange(value)
+    if (options[value]) {
+      onChange(value);
     }
   };
 

@@ -1,11 +1,10 @@
-
 .delete-button {
-    border: none;
-    position: absolute;
-    top: 0;
-    right: 32px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 32px;
 }
 
 .bookcard__container {
-    position: relative;
+  position: relative;
 }

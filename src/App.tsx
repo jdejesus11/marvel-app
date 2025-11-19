@@ -8,42 +8,16 @@ import charactersIcon from "./assets/images/characters.png";
 import favouritesIcon from "./assets/images/favourites.png";
 import { DropDownList } from "./components/drop-down/drop-down";
 import {BookCard} from "./components/book-card/BookCard"
-import { Character } from "./domain/Character";
+import { Character } from "./domain/Domain";
 import {Paginator} from "./components/paginator/Paginator"
+import {sortBy} from "./common/utils/uitils"
+import {Reducer} from "./common/reducers/reducers"
+import {useFetchCharacters} from "./common/hooks/useFetchCharacters"
 
-
-const data =  await import("./data/characters.json");
-
-type SortBy = "ASC" | "DESC";
-
-enum ActionTyoes {
-  SORTBY = "SORTBY"
-}
-
-interface State {
-  sortBy?: SortBy,
-  characters: Character[]
-}
-
-interface Action {
-  type: string,
-  payload: any
-}
-
-const Reducer = (state:State, action:Action):State => {
-  if (action.type === ActionTyoes.SORTBY){
-      return {
-        ...state,
-        sortBy: action.payload
-      }
-  }
-
-  return state;
-}
 
 export const App = () => {
 
-  const [state, dispatch] = useReducer(Reducer, { sortBy: "ASC", characters: [] })
+  const { characters, sortBy, dispatch } = useFetchCharacters();
 
   return (
     <AppLayout Header={Header} Footer={Footer}>
@@ -60,20 +34,12 @@ export const App = () => {
               onChange={(option?: string) => {
                 dispatch({ type:"SORTBY" , payload: option })
               }}
-              currentValue={state.sortBy}
+              currentValue={sortBy}
             />
           </div>
           <section className={styles["content"]}>
             {
-              data?.default?.results?.sort((a,b) => {
-                if (state.sortBy === "ASC"){
-                   if (a.name > b.name){
-                    return 1
-                   }
-                }
-
-                return -1;
-              }).map((item) => (
+              characters.map((item) => (
 <Card
               character={item}
             />
@@ -81,7 +47,7 @@ export const App = () => {
             }
           </section>
           <div>
-            <Paginator pages={data.default.results.length % 5} />
+            <Paginator pages={characters.length % 5} />
           </div>
         </div>
         <section className={styles["books"]}>
